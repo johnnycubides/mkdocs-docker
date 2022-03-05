@@ -12,7 +12,9 @@ Realizar el login a *dockerhub*
 podman login docker.io
 ```
 
-**Observación**: si se genera el siguiente error deberá configurar los permisos o hacer uso de `sudo` en los comando que requieran **podman**
+**Observación**: si se genera el siguiente error deberá configurar los permisos o hacer uso de `sudo` en los comando que requieran **podman**;
+los permisos se pueden configurar como es mencionado en la documentación de podman [rootless](https://github.com/containers/podman/blob/main/README.md#rootless)
+[arch-linux](https://wiki.archlinux.org/title/Linux_Containers#Enable_support_to_run_unprivileged_containers_(optional)
 
 > :warning:
 > Error: command required for rootless mode with multiple IDs: exec: "newuidmap": executable file not found in $PATH
